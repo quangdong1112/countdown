@@ -1,0 +1,51 @@
+
+.container {
+    position: relative;
+}
+
+.item {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.item-1 {
+    position: absolute;
+    top: 150px;
+    left: 20%;
+}
+.item-2 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.item-3 {
+    position: absolute;
+    top: 150px;
+    right: 20%;
+}
+.item-4 {
+    position: absolute;
+    top: 350px;
+    right: 20%;
+}
+.item-5 {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.item-6 {
+    position: absolute;
+    top: 350px;
+    left: 20%;
+}
+
+.item-7 {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
