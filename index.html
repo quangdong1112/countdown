@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,22 +11,46 @@
     <link rel="stylesheet" href="style.css">
     <script src="js.js"></script>
 </head>
+
 <body>
     <div class="container">
-        <div>
-            <span>Vong quay:</span>
-            <p id="count"></p>
+        <div class="header">
+            <div class="spin">
+                <span>Spin:</span>
+                <span id="count"></span>
+            </div>
+            <div class="total">
+                <span>Your Money:</span>
+                <span id="total"></span>
+            </div>
         </div>
-        <div class="item item-1"></div>
-        <div class="item item-2"></div>
-        <div class="item item-3"></div>
-        <div class="item item-4"></div>
-        <div class="item item-5"></div>
-        <div class="item item-6"></div>
-        <div class="item item-7">
-            <span>Countdown</span>
-            <p id="timer"></p>
+        <div class="content">
+            <div class="item item-1">1:X2</div>
+            <div class="item item-2">2:X3</div>
+            <div class="item item-3">3:+50</div>
+            <div class="item item-4">4:+75</div>
+            <div class="item item-5">5:+10</div>
+            <div class="item item-6">6:+20</div>
+            <div class="center">
+                <span id="countdown"></span>
+                <span id="timer"></span>
+            </div>
+        </div>
+        <div class="bet">
+            <label for="item1">item1</label>
+            <input id="item1" type="radio" name="money" value="1">
+            <label for="item2">item2</label>
+            <input id="item2" type="radio" name="money" value="2">
+            <label for="item4">item3</label>
+            <input id="item3" type="radio" name="money" value="3">
+            <label for="item4">item4</label>
+            <input id="item4" type="radio" name="money" value="4">
+            <label for="item5">item5</label>
+            <input id="item5" type="radio" name="money" value="5">
+            <label for="item6">item6</label>
+            <input id="item6" type="radio" name="money" value="6">
         </div>
     </div>
 </body>
+
 </html>
